@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel do Instrutor - Attude Fitness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/painel.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="sidebar__brand"><img src="./src/img/logo.svg" alt="Attude Fitness" class="brand__img" /> Attude<span>Fitness</span></div>
+    <nav>
+      <ul>
+        <li><a class="active" href="#">Painel</a></li>
+        <li><a href="#alunos">Alunos</a></li>
+        <li><a href="#treinos">Treinos</a></li>
+        <li><a href="index.html">Sair</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+    <header class="content__header">
+      <h1>Olá, Instrutor(a)</h1>
+    </header>
+    <section class="content__section">
+      <h2 id="alunos">Lista de alunos</h2>
+      <div id="listaAlunos" class="list"></div>
+    </section>
+    <section class="content__section">
+      <h2 id="treinos">Treinos atribuídos</h2>
+      <div id="listaTreinos" class="list"></div>
+    </section>
+  </main>
+  <script src="./src/js/painelInstrutor.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Attude Fitness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html" aria-label="Attude Fitness">
+        <img src="./src/img/logo.svg" alt="Attude Fitness" class="logo__img" />
+        <span class="logo__text">Attude<span>Fitness</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <nav class="nav" id="primary-nav">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="planos.html">Planos</a></li>
+          <li><a href="contato.html" class="active">Contato</a></li>
+          <li><a class="btn btn--accent" href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container grid grid--2">
+      <form id="contactForm" class="card form">
+        <h1>Fale conosco</h1>
+        <label>Nome
+          <input type="text" id="contactName" placeholder="Seu nome" required>
+        </label>
+        <label>Email
+          <input type="email" id="contactEmail" placeholder="seu@email.com" required>
+        </label>
+        <label>Mensagem
+          <textarea id="contactMessage" rows="5" placeholder="Como podemos ajudar?" required></textarea>
+        </label>
+        <button class="btn btn--accent" type="submit">Enviar</button>
+        <p class="form__success" id="contactSuccess" aria-live="polite"></p>
+      </form>
+      <div class="map">
+        <h2>Nossa localização</h2>
+        <div class="map__embed">
+          <iframe title="Mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.706365211629!2d-46.65657152383003!3d-23.57927186207001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c9f7b0c3a1%3A0x2c9b03a5d0d8c6c8!2sAcademia!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Attude Fitness</p>
+      <div class="social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./src/js/main.js"></script>
+</body>
+</html>
+
+
