@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Attude Fitness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+  <header class="header header--simple">
+    <div class="container header__inner">
+      <a class="logo" href="index.html" aria-label="Attude Fitness">
+        <img src="./src/img/logo.svg" alt="Attude Fitness" class="logo__img" />
+        <span class="logo__text">Attude<span>Fitness</span></span>
+      </a>
+      <nav class="nav nav--simple">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="planos.html">Planos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="auth">
+    <div class="container auth__container">
+      <form id="loginForm" class="card form">
+        <h1>Entrar</h1>
+        <label>Email
+          <input type="email" id="loginEmail" placeholder="seu@email.com" required>
+        </label>
+        <label>Senha
+          <input type="password" id="loginPassword" placeholder="••••••••" required>
+        </label>
+        <button class="btn btn--accent" type="submit">Login</button>
+        <p class="form__hint">Ainda não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+        <p class="form__error" id="loginError" aria-live="polite"></p>
+      </form>
+    </div>
+  </main>
+
+  <script src="./src/js/auth.js"></script>
+</body>
+</html>
+
+

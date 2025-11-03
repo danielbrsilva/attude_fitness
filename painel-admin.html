@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Painel do Aluno - Attude Fitness</title>
+  <title>Painel do Admin - Attude Fitness</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -14,36 +14,27 @@
     <div class="sidebar__brand"><img src="./src/img/logo.svg" alt="Attude Fitness" class="brand__img" /> Attude<span>Fitness</span></div>
     <nav>
       <ul>
-        <li><a class="active" href="#">Meu painel</a></li>
-        <li><a href="#treinos">Treinos</a></li>
-        <li><a href="#progresso">Progresso</a></li>
+        <li><a class="active" href="#">Dashboard</a></li>
+        <li><a href="#usuarios">Usuários</a></li>
+        <li><a href="#planos">Planos</a></li>
         <li><a href="index.html">Sair</a></li>
       </ul>
     </nav>
   </aside>
   <main class="content">
     <header class="content__header">
-      <h1>Bem-vindo(a), <span id="studentName">Aluno</span></h1>
+      <h1>Administração</h1>
     </header>
     <section class="content__section">
-      <h2>Seus treinos</h2>
-      <div id="treinos" class="list"></div>
+      <h2 id="usuarios">Controle de usuários</h2>
+      <div id="usuariosLista" class="list"></div>
     </section>
     <section class="content__section">
-      <h2 id="progresso">Progresso</h2>
-      <div class="cards">
-        <div class="card stat">
-          <span class="stat__label">Treinos concluídos</span>
-          <span class="stat__value" id="workoutsDone">-</span>
-        </div>
-        <div class="card stat">
-          <span class="stat__label">Dias seguidos</span>
-          <span class="stat__value" id="streak">-</span>
-        </div>
-      </div>
+      <h2 id="planos">Gerenciar planos</h2>
+      <div id="planosLista" class="list"></div>
     </section>
   </main>
-  <script src="./src/js/painelAluno.js"></script>
+  <script src="./src/js/painelAdmin.js"></script>
 </body>
 </html>
 

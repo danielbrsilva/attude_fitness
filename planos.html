@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planos - Attude Fitness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html" aria-label="Attude Fitness">
+        <img src="./src/img/logo.svg" alt="Attude Fitness" class="logo__img" />
+        <span class="logo__text">Attude<span>Fitness</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <nav class="nav" id="primary-nav">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="planos.html" class="active">Planos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a class="btn btn--accent" href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Nossos Planos</h1>
+      <div class="plans-grid">
+        <article class="plan-card">
+          <div class="plan-card__body">
+            <h3>Básico</h3>
+            <p class="price">R$ 59/mês</p>
+            <ul>
+              <li>Acesso horário comercial</li>
+              <li>Aparelhos de musculação</li>
+              <li>Aulas coletivas selecionadas</li>
+            </ul>
+            <a class="btn btn--secondary" href="cadastro.html">Assinar</a>
+          </div>
+        </article>
+        <article class="plan-card plan-card--featured">
+          <div class="plan-card__body">
+            <h3>Intermediário</h3>
+            <p class="price">R$ 89/mês</p>
+            <ul>
+              <li>Acesso estendido</li>
+              <li>Musculação + aeróbicos</li>
+              <li>Aulas coletivas completas</li>
+            </ul>
+            <a class="btn btn--accent" href="cadastro.html">Plano recomendado</a>
+          </div>
+        </article>
+        <article class="plan-card">
+          <div class="plan-card__body">
+            <h3>Premium</h3>
+            <p class="price">R$ 129/mês</p>
+            <ul>
+              <li>Acesso total</li>
+              <li>Área funcional</li>
+              <li>Consultoria com instrutor</li>
+            </ul>
+            <a class="btn btn--secondary" href="cadastro.html">Assinar</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Attude Fitness</p>
+      <div class="social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./src/js/main.js"></script>
+</body>
+</html>
+
+
