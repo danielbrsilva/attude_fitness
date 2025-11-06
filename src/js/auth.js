@@ -13,7 +13,8 @@
   const DEFAULT_USERS = [
     { name: 'Administrador', email: 'admin@attude.com', password: '666666', role: 'admin' },
     { name: 'Instrutor Daniel', email: 'instrutor@attude.com', password: '123456', role: 'instrutor' },
-    { name: 'Instrutor Paulo', email: 'coach@attude.com', password: '123456', role: 'instrutor' },
+    { name: 'Instrutor Paulo', email: 'paulo@attude.com', password: '123456', role: 'instrutor' },
+    { name: 'Instrutor Lins', email: 'lins@attude.com', password: '123456', role: 'instrutor' },
     { name: 'Aluno Padrão', email: 'aluno@attude.com', password: '123456', role: 'aluno' },
     { name: 'Felipe Neto', email: 'felipe@attude.com', password: '666666666', role: 'aluno' },
   ];
