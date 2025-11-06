@@ -11,7 +11,7 @@
 
   /** Reinicia e popula os usuários padrão a cada carregamento conforme solicitado */
   const DEFAULT_USERS = [
-    { name: 'Administrador', email: 'admin@attude.com', password: '123456', role: 'admin' },
+    { name: 'Administrador', email: 'admin@attude.com', password: '666666', role: 'admin' },
     { name: 'Instrutor João', email: 'instrutor@attude.com', password: '123456', role: 'instrutor' },
     { name: 'Instrutor Ana', email: 'coach@attude.com', password: '123456', role: 'instrutor' },
     { name: 'Aluno Padrão', email: 'aluno@attude.com', password: '123456', role: 'aluno' },
