@@ -12,10 +12,10 @@
   /** Reinicia e popula os usuários padrão a cada carregamento conforme solicitado */
   const DEFAULT_USERS = [
     { name: 'Administrador', email: 'admin@attude.com', password: '666666', role: 'admin' },
-    { name: 'Instrutor João', email: 'instrutor@attude.com', password: '123456', role: 'instrutor' },
-    { name: 'Instrutor Ana', email: 'coach@attude.com', password: '123456', role: 'instrutor' },
+    { name: 'Instrutor Daniel', email: 'instrutor@attude.com', password: '123456', role: 'instrutor' },
+    { name: 'Instrutor Paulo', email: 'coach@attude.com', password: '123456', role: 'instrutor' },
     { name: 'Aluno Padrão', email: 'aluno@attude.com', password: '123456', role: 'aluno' },
-    { name: 'Maria Silva', email: 'maria@attude.com', password: '123456', role: 'aluno' },
+    { name: 'Felipe Neto', email: 'felipe@attude.com', password: '666666666', role: 'aluno' },
   ];
   localStorage.setItem(USERS_KEY, JSON.stringify(DEFAULT_USERS));
 
